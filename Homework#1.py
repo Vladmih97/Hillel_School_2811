@@ -1,7 +1,11 @@
+#Task №1
+
 antigravity = "\t\timport antigravity"
 helloString = "\n\t\timport __hello__"
 futureString = "\n\t\tfrom __future__ import braces"
 print(antigravity + helloString + futureString)
+
+#Task №2
 
 from PIL import Image, ImageDraw
 
@@ -12,6 +16,8 @@ for i in range(im.height):
     for j in range(im.width):
         print('* '[im.getpixel((j, i))], end='')
     print()
+
+#Task №3
 
 print("Escape sequences")
 
