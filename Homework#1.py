@@ -1,5 +1,5 @@
 antigravity = "\t\timport antigravity"
-helloString = "\n\t\timport__hello__"
+helloString = "\n\t\timport __hello__"
 futureString = "\n\t\tfrom __future__ import braces"
 print(antigravity + helloString + futureString)
 
@@ -13,5 +13,12 @@ for i in range(im.height):
         print('* '[im.getpixel((j, i))], end='')
     print()
 
+print("Escape sequences")
 
+data1 = ("\\a\t\tBell(alert)\n\\b\t\tBackspace\n\\n\t\tNew line\n\\t\t\tHorizontal tab")
 
+data2 = ('\n\ \t\tBacklash(\)\n\ "\t\tDouble quotation mark " ')
+
+data3 = ("\n\ '\t\tSingle quotation mark ' ")
+
+print(data1 + data2 + data3)
